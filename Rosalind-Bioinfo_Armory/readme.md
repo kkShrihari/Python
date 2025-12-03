@@ -40,16 +40,22 @@ No other AI-generated logic or content appears in the solution scripts.
 
 The uploaded solutions include problems involving:
 
-- DNA/RNA string processing  
-- Sequence translation & codon tables  
-- Combinatorics & probability  
-- Mendelian inheritance models  
-- Phylogenetic trees & distance matrices  
-- Assembly statistics (N50, N75, etc.)  
-- Linguistic complexity  
-- Mass spectrometry & peptide inference  
-- Genome assembly graphs  
-- Classical bioinformatics algorithms  
+- **INI** — Introduction to the Bioinformatics Armory
+- **GBK** — GenBank Introduction
+- **FRMT** — Data Formats
+- **MEME** — New Motif Discovery
+- **NEED** — Pairwise Global Alignment
+- **TFSQ** — FASTQ format introduction
+- **PHRE** — Read Quality Distribution
+- **PTRA** — Protein Translation
+- **FILT** — Read Filtration by Quality
+- **RVCO** — Complementing a Strand of DNA
+- **SUBO** — Suboptimal Local Alignment
+- **BPHR** — Base Quality Distribution
+- **CLUS** — Global Multiple Alignment
+- **ORFR** — Finding Genes with ORFs
+- **BFIL** — Base Filtration by Quality
+
 
 Each script corresponds exactly to one Rosalind problem.
 
