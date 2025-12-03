@@ -1,0 +1,22 @@
+class Point_mutation:
+    """
+    A class to calculate point mutations (Hamming distance) between two strings.
+    """
+    def __init__(self,str1,str2):
+        self.str1 = str1
+        self.str2 = str2
+
+    def PM_count(self):
+        """
+        Counts the number of positions where the two sequences differ.
+        """
+        point_mutation = 0
+        if len(self.str1) == len(self.str2):
+            for i in range(len(self.str1)):
+                if self.str1[i] != self.str2[i]:
+                    point_mutation += 1
+        print("\nThe no of point mutation is:")
+        return point_mutation
+    
+PM = Point_mutation("ATGC","ATGG")
+print(PM.PM_count())
