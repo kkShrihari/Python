@@ -34,7 +34,6 @@ class Nucleotides:
             elif DNA_list[i] == " ":
                 DNA_list[i] = ""
         DNA_string = "".join(DNA_list)
-        print("The transcribed sequence is:")
         return DNA_string
 
     def Rev_complement(self):
@@ -54,7 +53,6 @@ class Nucleotides:
                 DNA_list[i] = "G"
         DNA_string = "".join(DNA_list)
         rev_comp = DNA_string[::-1]  
-        print("\nThe reverse complement is:")
         return rev_comp
     
     def GC_content(self):
@@ -71,7 +69,6 @@ class Nucleotides:
 
         seq_length = len(self.input_string)
         GC_percent = (g + c) * 100 / seq_length
-        print("\nThe GC content of the sequence is:")
         return round(GC_percent, 3)
     
     def RNA2Protein(self):
@@ -105,6 +102,5 @@ class Nucleotides:
                 break
             protein += RNA_codon_table[codon]
 
-        print("\nThe Protein sequence is:")
         return protein
 
