@@ -20,13 +20,7 @@ class Nucleotides:
                 c += 1
             elif self.input_string[i] not in ["A", "T", "G", "C"]: 
                 print("Unexpected character:", self.input_string[i])
-
-        print("The count of Adenine is:", a, '\n'
-              "The count of Thymine is:", t, '\n'
-              "The count of Guanine is:", g, '\n'
-              "The count of Cytosine is:", c, '\n')
-
-        return g, c
+        return f"{a} {c} {g} {t}"
 
     def DNA2RNA(self):
         """
